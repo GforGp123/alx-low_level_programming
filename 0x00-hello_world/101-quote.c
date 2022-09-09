@@ -1,8 +1,9 @@
 #include <stdio.h>
 #include <unistd.h>
 /**
- * main - print "and that piece of art is useful"
- * Return 1 if success
+ * main - Entry point
+ *
+ * Return: 1 Always (Success)
  */
 int main(void)
 {
