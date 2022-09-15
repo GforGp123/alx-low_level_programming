@@ -12,9 +12,9 @@ int main(void)
 	e = 2;
 	sum = 0;
 
-	for (i = 1; i <= 33; ++i)
+	for (n = 1; n <= 33; ++n)
 	{
-		if (j < 4000000 && (j % 2) == 0)
+		if (d < 4000000 && (d % 2) == 0)
 		{
 			sum = sum + d;
 		}
