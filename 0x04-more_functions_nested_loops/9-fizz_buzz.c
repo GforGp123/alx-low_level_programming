@@ -21,6 +21,11 @@ int main(void)
 		}
 		else if (c % 5 == 0)
 		{
+			if (c == 100)
+			{
+				printf("Buzz");
+				break;
+			}
 			printf("Buzz ");
 		}
 		else
