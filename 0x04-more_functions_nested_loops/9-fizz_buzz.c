@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- *main - entry point to fizzbuzz
+ * main - entry point to fizzbuzz
  * Return: 0
  */
 
