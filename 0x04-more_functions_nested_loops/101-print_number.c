@@ -20,7 +20,7 @@ void print_number(int n)
 		x = n;
 	}
 	y = x;
-	z = -1;
+	z = 1;
 
 	while (y > 9)
 	{
