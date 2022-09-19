@@ -2,12 +2,14 @@
 
 /**
  * swap_int - function that swaps the values of two integers
- * @a: first integer
- * @b: second integer
+ * @a: first integer* @b: second integer
  * Return: void
  */
 void swap_int(int *a, int *b)
 {
+	int a;
+	int b;
+
 	*a = b;
 	*b = a;
 }
