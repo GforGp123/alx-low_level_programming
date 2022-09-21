@@ -12,9 +12,11 @@ int _atoi(char *s)
 	x = 0;
 	y = 0;
 	z = 0;
+	len = 0;
 	n = 0;
 	dig = 0;
-	for (len = 0; s[len] != '\0'; len++)
+	while (s[len] != '\0')
+		len++;
 	while (x < len && n == 0)
 	{
 		if (s[x] == '-')
